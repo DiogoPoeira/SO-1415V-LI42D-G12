@@ -1,15 +1,17 @@
-﻿Build started 06-04-2015 14:39:41.
-     1>Project "C:\Users\Diogo\Desktop\SO\so serie1\ex4\ex4.vcxproj" on node 2 (Build target(s)).
+﻿Build started 15-04-2015 12:15:17.
+     1>Project "C:\Users\Diogo\Desktop\SO\Git\Serie1\Código\ex4\ex4.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (solution.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ex4.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ex4.cpp
          ex4.cpp
-     1>c:\users\diogo\desktop\so\so serie1\ex4\ex4.cpp(48): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\diogo\desktop\so\git\serie1\código\ex4\ex4.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\diogo\desktop\so\git\serie1\código\ex4\ex4.cpp(25): warning C4101: 'blocks_size' : unreferenced local variable
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Diogo\Desktop\SO\so serie1\Debug\ex4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Diogo\Desktop\SO\so serie1\Debug\ex4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Diogo\Desktop\SO\so serie1\Debug\ex4.lib" /MACHINE:X86 Debug\ex4.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Diogo\Desktop\SO\Git\Serie1\Código\Debug\ex4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Diogo\Desktop\SO\Git\Serie1\Código\Debug\ex4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Diogo\Desktop\SO\Git\Serie1\Código\Debug\ex4.lib" /MACHINE:X86 Debug\ex4.obj
          Debug\stdafx.obj
-         ex4.vcxproj -> C:\Users\Diogo\Desktop\SO\so serie1\Debug\ex4.exe
-     1>Done Building Project "C:\Users\Diogo\Desktop\SO\so serie1\ex4\ex4.vcxproj" (Build target(s)).
+         ex4.vcxproj -> C:\Users\Diogo\Desktop\SO\Git\Serie1\Código\Debug\ex4.exe
+     1>Done Building Project "C:\Users\Diogo\Desktop\SO\Git\Serie1\Código\ex4\ex4.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.93
+Time Elapsed 00:00:00.90

@@ -14,6 +14,7 @@
     <ProjectGuid>{D9AD47C3-41E8-48FC-969A-3CD63CB52CE5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ex4</RootNamespace>
+    <ProjectName>ex4</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -75,9 +76,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
